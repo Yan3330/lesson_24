@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-three{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav-three a{
+    margin-right: 20px;
+    line-height: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.nav-three li:last-child a{
+    color: blueviolet;
+}
+
+.contact_info{
+    margin: 48 0 60;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: ;
+}
+
+.contact_content h2{
+    font-weight: ;
+    font-size: ;
+    line-height: ;
+    text-transform: uppercase;
+    color: ;
+}
+
+.contact_content p{
+    font-size: ;
+    line-height: ;
+    color: ;
+}
+
+p.subtext{
+    font-size: ;
+    line-height: ;
+    color: ;
+    margin-bottom: ;
+    margin-top: ;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+.contact_form{
+    width: 500px;
+    padding: ;
+    background: rgb(43, 144, 226);
+}
+
+.contact_form h3{
+    width: 227px;
+    height: 25px;
+    left: 882px;
+    top: 303px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323232;
+    text-align: center;
+    margin-bottom: ;
+}
+
+.form_input{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 15 278 15 20;
+    width: ;
+    margin-bottom: ;
+}
+
+.form_btn{
+    border-radius: 2px;
+    position: absolute;
+    width: 370px;
+    height: 60px;
+    left: 815px;
+    top: 613px;
+    background: #DD4053;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team{
+    margin-top: 90px;
+}
+
+.team_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: ;
+}
+
+.team_header h2{
+    width: 272px;
+    height: 42px;
+    left: 115px;
+    top: 1273px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.team_list{
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.team_list li{
+    opacity: 0.35;
+    margin-left: ;    
+}
+
+.team_list li:first-child{
+    opacity: ;
+    margin-left: ;
+}
+
+.team_card_zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team_card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: ;
+    padding-bottom: ;
+    margin-top: ;
+    border-bottom: ;
+}
+
+.card_text{
+    margin-left: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: ;
+}
+
+.card_text_header h3{
+    margin-bottom: ;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+}
+
+@media screen and (max-width: 1250px) {
+    .container{
+        max-width: ;
+    }
+
+}
